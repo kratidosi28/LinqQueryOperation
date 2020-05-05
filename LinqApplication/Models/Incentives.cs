@@ -13,7 +13,7 @@ namespace LinqApplication.Models
 
         public int INCENTIVE_AMOUNT { get; set; }
 
-        public static List<Incentives> AddIncentives()
+        public static List<Incentives> IncentiveDetails()
 
         {
             List<Incentives> incentives = new List<Incentives>();
